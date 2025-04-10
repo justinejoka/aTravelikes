@@ -1,7 +1,6 @@
 import {
   faBed,
   faCalendarDays,
-  faCar,
   faPerson,
   faPlane,
   faTaxi,
@@ -69,10 +68,6 @@ const Header = ({ type }) => {
           <div className="headerListItem">
             <FontAwesomeIcon icon={faPlane} />
             <span>Flights</span>
-          </div>
-          <div className="headerListItem">
-            <FontAwesomeIcon icon={faCar} />
-            <span>Car rentals</span>
           </div>
           <div className="headerListItem">
             <FontAwesomeIcon icon={faBed} />
